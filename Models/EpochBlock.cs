@@ -28,6 +28,8 @@ namespace OpenMovement.AxLE.Service.Models
 
         public UInt16 DataLength { get; set; }
 
+        public UInt32 EpochPeriod { get; set; }
+
         public UInt32 DeviceTimestamp { get; set; }
 
         public DateTimeOffset Timestamp { get; set; }
