@@ -48,9 +48,9 @@ namespace OpenMovement.AxLE.Service.Models
 
         public sbyte Acceleration { get; set; }
 
-        public sbyte Steps { get; set; }
+        public UInt16 Steps { get; set; }
 
-        public sbyte[] Epoch { get; set; } // 4
+        public UInt32 Epoch { get; set; } // 4
 
         public EpochSample()
         {
