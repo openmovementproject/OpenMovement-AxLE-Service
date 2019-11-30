@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>Gerard Wilkinson</Authors>
+    <Authors>Gerard Wilkinson, Daniel Jackson</Authors>
     <PackageLicenseUrl>https://github.com/digitalinteraction/OpenMovement-AxLE-Service/blob/master/LICENSE</PackageLicenseUrl>
     <Owners>Open Lab, Newcastle University</Owners>
     <PackageProjectUrl>https://github.com/digitalinteraction/OpenMovement-AxLE-Service</PackageProjectUrl>
@@ -11,9 +11,12 @@
     <Description>OpenMovement AxLE Service Layer, containing repository interfaces and AxLE models.</Description>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>OpenMovement.AxLE.Service</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageIconUrl>https://github.com/digitalinteraction/OpenMovement-AxLE-App/raw/master/OpenMovement.AxLE.App/OpenMovement.AxLE.App.iOS/Assets.xcassets/AppIcon.appiconset/Icon-1024.png</PackageIconUrl>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Class1.cs" />
   </ItemGroup>
@@ -23,6 +26,8 @@
     <Folder Include="Values\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.2"><PrivateAssets>all</PrivateAssets>
+<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+</PackageReference>
   </ItemGroup>
 </Project>
