@@ -11,7 +11,7 @@
     <Description>OpenMovement AxLE Service Layer, containing repository interfaces and AxLE models.</Description>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>OpenMovement.AxLE.Service</PackageId>
-    <PackageIconUrl>https://github.com/digitalinteraction/OpenMovement-AxLE-App/raw/master/OpenMovement.AxLE.App/OpenMovement.AxLE.App.iOS/Assets.xcassets/AppIcon.appiconset/Icon-1024.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/digitalinteraction/OpenMovement-AxLE-Service/master/logo.png</PackageIconUrl>
     <PackageVersion>1.2</PackageVersion>
   </PropertyGroup>
 
